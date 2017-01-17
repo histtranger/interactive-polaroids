@@ -22,4 +22,60 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  width: 100%;
+}
+
+figure {
+  position: relative;
+  overflow: hidden;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.hadro {
+  top: 100px;
+  left: 20%;
+  position: absolute;
+  transform: rotate(-12deg);
+  z-index: 1;
+}
+
+.hadro:hover {
+  transition: all 250ms ease-in;
+  transform: rotate(0);
+  z-index: 4;
+}
+
+.ptera {
+  top: 150px;
+  left: 288px;
+  position: absolute;
+  transform: rotate(5deg);
+  z-index: 3;
+}
+
+.ptera:hover {
+  transition: all 250ms ease-in;
+  transform: rotate(0);
+  z-index: 3;
+}
+
+.stego {
+  top: 100px;
+  left: 384px;
+  position: absolute;
+  transform: rotate(33deg);
+  z-index: 2;
+}
+
+.stego:hover {
+  transition: all 250ms ease-in;
+  transform: rotate(0);
+  z-index: 3;
 }
