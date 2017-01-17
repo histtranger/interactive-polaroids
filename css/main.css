@@ -25,6 +25,12 @@ html {
   width: 100%;
 }
 
+.polaroid:hover {
+  transition: all 250ms ease-in;
+  transform: rotate(0);
+  z-index: 4;
+}
+
 figure {
   position: relative;
   overflow: hidden;
